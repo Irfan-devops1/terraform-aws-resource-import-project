@@ -208,10 +208,10 @@ After successfully importing the initial EC2 instance and S3 bucket, I created a
 
 ### New EC2 Instance Details
 
-- Name: `webserver008`                          — Replace with your EC2 instance name.
-- Instance type: `t3.micro`                     — Replace with your preferred instance type.
-- Availability Zone: `ap-south-1b`              — Replace with your preferred Availability Zone.
-- AWS Region: `ap-south-1`                      — Replace with your preferred AWS Region.
+- Name: `webserver008`                                         **Replace with your EC2 instance name**
+- Instance type: `t3.micro`                                    **Replace with your preferred instance type**
+- Availability Zone: `ap-south-1b`                             **Replace with your preferred Availability Zone**
+- AWS Region: `ap-south-1`                                     **Replace with your preferred AWS Region**
 - Terraform resource address: `aws_instance.mynewinstance`
 
 ### Import Block
