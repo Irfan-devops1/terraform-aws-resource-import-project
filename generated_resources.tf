@@ -1,5 +1,4 @@
 # __generated__ by Terraform
-# Please review these resources and move them into your main configuration files.
 
 # __generated__ by Terraform from "irfan07-test-bucket"
 resource "aws_s3_bucket" "mybucket" {
@@ -81,7 +80,6 @@ resource "aws_instance" "myinstance" {
   }
 }
 
-# __generated__ by Terraform
 # Please review these resources and move them into your main configuration files.
 
 # __generated__ by Terraform

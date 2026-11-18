@@ -1,4 +1,25 @@
 
+### Python Script – Terraform Configuration Cleanup
+
+The `cleanup_terraform.py` script automatically cleans Terraform-generated
+EC2 configurations to resolve conflicting arguments.
+
+**Key Features:**
+- Detects EC2 resource blocks.
+- Removes conflicting network interface arguments.
+- Handles IPv6 configuration conflicts.
+- Removes conflicting security group arguments.
+- Creates timestamped backups before making changes.
+- Keeps backup files outside the Terraform root directory.
+
+**Execute the script:**
+
+```bash
+python cleanup_terraform.py
+
+
+
+
 import re
 import shutil
 from datetime import datetime

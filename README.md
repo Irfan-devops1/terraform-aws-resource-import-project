@@ -40,7 +40,7 @@ Finally, I verified that all four resources were managed by Terraform and perfor
 | GitHub | Source code management |
 | PowerShell | Command-line execution |
 
-**AWS Region:** `ap-south-1` (Mumbai)    **Your preferred AWS region**
+**AWS Region:** `ap-south-1` (Mumbai)    <!-- Replace with your preferred AWS Region -->
 
 ## 3. Initial AWS Infrastructure
 
@@ -116,7 +116,7 @@ First, I configured the AWS provider in `main.tf`.
 
 ```hcl
 provider "aws" {
-  region = "ap-south-1"
+  region = "ap-south-1"            <!-- Replace with your preferred AWS Region -->
 }
 ```
 
@@ -147,8 +147,7 @@ Added the following block in `main.tf`:
 ```hcl
 import {
   to = aws_instance.myinstance
-  id = "YOUR_EC2_INSTANCE_ID"
-}
+  id = "YOUR_EC2_INSTANCE_ID"        
 ```
 
 Replace `YOUR_EC2_INSTANCE_ID` with the actual EC2 instance ID.
@@ -209,10 +208,10 @@ After successfully importing the initial EC2 instance and S3 bucket, I created a
 
 ### New EC2 Instance Details
 
-- Name: `webserver008`        
-- Instance type: `t3.micro`
-- Availability Zone: `ap-south-1b`
-- AWS Region: `ap-south-1`
+- Name: `webserver008`                         <!-- Replace with your EC2 Instance name -->
+- Instance type: `t3.micro`                    <!-- Replace with your preferred instance type -->
+- Availability Zone: `ap-south-1b`             <!-- Replace with your preferred Availability Zone -->
+- AWS Region: `ap-south-1`                     <!-- Replace with your preferred AWS Region -->
 - Terraform resource address: `aws_instance.mynewinstance`
 
 ### Import Block
@@ -274,7 +273,7 @@ I added the following import block in `main.tf`:
 ```hcl
 import {
   to = aws_dynamodb_table.mytable
-  id = "mydbtable"
+  id = "mydbtable"                     <!-- Replace with your dynamodb_table_name -->
 }
 ```
 
