@@ -468,9 +468,8 @@ This project demonstrates a practical real-world Terraform workflow where existi
 
 ## Author
 
-**Irfan Ahmad**
+**Irfan Ahmad**  
 DevOps Engineer
 
-- LinkedIn: [https://www.linkedin.com/in/irfan-ahmad-1b52098b](https://www.linkedin.com/in/irfan-ahmad-1b52098b)
-- GitHub: [https://github.com/YOUR_GITHUB_USERNAME](https://github.com/YOUR_GITHUB_USERNAME)
-
+- Project Repository: [AWS Terraform Resource Import](https://github.com/Irfan-devops1/terraform-aws-resource-import-project)
+- GitHub Profile: [Your GitHub ID](https://github.com/Irfan-devops1)
