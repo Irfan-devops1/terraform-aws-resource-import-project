@@ -486,7 +486,7 @@ This step demonstrates that Terraform can also manage the lifecycle of imported 
 
 The following screenshot documents the separate cleanup activity and Terraform state verification.
 
-![Imported Resources Destroyed and Terraform State List](screenshots/imported-resources-destroyed-and-statelist.png)
+![Imported Resources Destroyed and Terraform State List](screenshots/imported-resources-destroyed-by-terrafom.png)
 
 ### AWS Resources Destroyed
 
